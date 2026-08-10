@@ -1,0 +1,1 @@
+import{j as e,m as o}from"./motion-95eb5l84.js";function n({children:i,delay:t=0}){return e.jsx(o.div,{initial:{opacity:0,y:18},whileInView:{opacity:1,y:0},viewport:{once:!0,margin:"-60px"},transition:{duration:.6,ease:"easeOut",delay:t},children:i})}export{n as R};
