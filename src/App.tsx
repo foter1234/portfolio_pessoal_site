@@ -7,7 +7,6 @@ const Technologies = lazy(() => import('./components/Technologies').then((m) => 
 const Projects = lazy(() => import('./components/Projects').then((m) => ({ default: m.Projects })));
 const Events = lazy(() => import('./components/Events').then((m) => ({ default: m.Events })));
 const Experience = lazy(() => import('./components/Experience').then((m) => ({ default: m.Experience })));
-const Stats = lazy(() => import('./components/Stats').then((m) => ({ default: m.Stats })));
 const Contact = lazy(() => import('./components/Contact').then((m) => ({ default: m.Contact })));
 const Footer = lazy(() => import('./components/Footer').then((m) => ({ default: m.Footer })));
 
@@ -23,7 +22,6 @@ export default function App() {
           <Projects />
           <Events />
           <Experience />
-          <Stats />
           <Contact />
         </Suspense>
       </main>

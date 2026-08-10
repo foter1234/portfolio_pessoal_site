@@ -16,7 +16,6 @@ export function Nav() {
             <a key={l.href} href={l.href} className="nav-link">{l.label}</a>
           ))}
         </div>
-        <a href="#contato" className="nav-cta">Contato</a>
       </div>
     </nav>
   );

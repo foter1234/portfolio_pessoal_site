@@ -3,7 +3,7 @@ export const profile = {
   cargo: 'Desenvolvedor Web',
   stack: 'Sistemas, Automações & IA',
   resumo: 'Desenvolvo sites, sistemas e automações — e conecto isso a APIs, inteligência artificial e marketing digital para resolver problemas reais de quem usa. Programo desde os 14 anos e hoje aplico isso em projetos próprios, em trabalhos para clientes e na Teora Solutions, da qual sou cofundador.',
-  status: 'disponível para novos projetos',
+  status: '',
   localizacao: 'Nova Andradina — MS',
   email: 'lucaspesteves2017@gmail.com',
   telefone: '(67) 99835-1895',

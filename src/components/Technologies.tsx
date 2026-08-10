@@ -19,7 +19,7 @@ export function Technologies() {
               <span className="tech-cat">{cat.nome}</span>
               <div className="tech-chips">
                 {cat.itens.map((item) => (
-                  <span key={item.nome} className={cat.destaque ? 'tech-chip principal' : 'tech-chip'}>
+                  <span key={item.nome} className={`${cat.destaque ? 'tech-chip principal' : 'tech-chip'} ${item.icone}`}>
                     <span className="tech-chip-icon" aria-hidden="true"><TechIcon name={item.icone} /></span>
                     {item.nome}
                   </span>

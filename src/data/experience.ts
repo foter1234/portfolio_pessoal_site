@@ -9,12 +9,8 @@ export interface Differential { titulo: string; }
 
 // Diferenciais destacados na seção "Sobre".
 export const differentials: Differential[] = [
-  { titulo: 'Projetos próprios' },
-  { titulo: 'Projetos para clientes reais' },
-  { titulo: 'Sistemas completos' },
-  { titulo: 'SaaS' },
-  { titulo: 'Automações' },
-  { titulo: 'Inteligência Artificial' },
+  { titulo: 'Desenvolvimento Web' },
+  { titulo: 'Automação' },
   { titulo: 'Marketing Digital' },
-  { titulo: 'Desenvolvimento Web' }
+  { titulo: 'Sistemas completos' }
 ];
